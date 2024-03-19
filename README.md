@@ -90,7 +90,7 @@ Checks: Porcentagem de sucesso das requisiçoes
 Http_req_failed: Porcentagem de falhas das requisiçoes  
 ```
 ```
-Http_req_duration: O tempo de ponta a ponta de todas as solicitações (ou seja, a latência total)  
+Http_req_duration: O tempo de ponta a ponta de todas as solicitações, a latência total
 ```
 ```
 Iterations: Numero total de interações  
