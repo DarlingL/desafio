@@ -43,7 +43,7 @@ npm run exec_teste
 
 Cada Execução gera um relatório HTML, que pode ser acessado em:
 ```
-api_testing/mochawesome-report/mochawesome.html
+mochawesome-report/mochawesome.html
 ```
 
  ______________________________________
