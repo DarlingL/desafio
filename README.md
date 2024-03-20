@@ -2,7 +2,14 @@
 ### 1. Testes API
  ## **Frameworks Utilizados:**
 
-<img src="https://github.com/DarlingL/api_test_goRest/blob/master/suporte/frameworks.png?raw=true" width="550">
+```
+joi 
+chai
+mocha 
+supertest
+joi-assert 
+mochawesome 
+```
 
  ## Para Iniciar ##
 
