@@ -1,0 +1,79 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-03-20T02:37:14.696Z",
+    "end": "2024-03-20T02:37:15.163Z",
+    "duration": 467,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "e636fa9e-fd8c-42cb-8b59-cf50e5d3a960",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "001eba47-284c-471f-ba4f-cb71a829f203",
+        "title": "Desafio ",
+        "fullFile": "/Users/darlinglopes/Desktop/projetos/desafio/api_testing/test/test.js",
+        "file": "/api_testing/test/test.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Retorno da API randomuser.me ",
+            "fullTitle": "Desafio  Retorno da API randomuser.me ",
+            "timedOut": false,
+            "duration": 445,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "this.timeout(request_timeout);\nrequest(URL)\n.get(PATH_API)\n.expect(\"Content-Type\", /json/)\n.end(function(err, res) {\n    expect(res.status).to.be.eql(200);\n    joiAssert(res.body, schemaAPI);\n    done(err);\n    });",
+            "err": {},
+            "isRoot": false,
+            "uuid": "2e930de0-fa72-4b3b-986c-c89f3e8d1977",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "2e930de0-fa72-4b3b-986c-c89f3e8d1977"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 445,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2024
+}

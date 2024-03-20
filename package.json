@@ -1,17 +1,15 @@
 {
-    "name": "testing",
+    "name": "Desafio",
     "version": "1.0.0",
-    "description": "Teste Server Rest",
+    "description": "Teste randomuser.me",
     "scripts": {
       "exec_teste_perfomance": "k6 run k6/test_perfomance.js",
-      "exec_teste": "NODE_ENV=https://serverest.dev mocha teste/teste.js --reporter mochawesome"
+      "exec_teste": "NODE_ENV=https://randomuser.me mocha api_testing/test/test.js --reporter mochawesome"
     },
     "author": "Darling",
     "license": "ISC",
     "dependencies": {
-      "@faker-js/faker": "^7.6.0",
       "chai": "^3.5.0",
-      "faker": "^6.6.6",
       "joi": "^10.6.0",
       "joi-assert": "^0.0.3",
       "mocha": "^5.2.0",
